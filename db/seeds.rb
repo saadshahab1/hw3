@@ -5,3 +5,6 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+place = Place.create([{ name: "Mexico City" }, { name: "Havana" }, { name: "Bogota" }, { name: "Cartagena" }])
+post = Post.create([ title: "Ate tacos", posted_on: "1-1-19", description: "Loved the birria tacos"], 
